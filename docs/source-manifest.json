@@ -1,0 +1,14 @@
+{
+  "commit": "e33eb6a35804c2122c1d0d711e2cc91cfaceac91",
+  "source": "Hainrixz/whatsapp-agentkit",
+  "distribution": "1.0.0",
+  "preserved": "Todas las secciones técnicas y plantillas de CLAUDE.md; comando de entrevista y variables de entorno",
+  "patches": [
+    "Firma ausente rechazada",
+    "Secretos fuera del chat",
+    "No borrar .git",
+    "Logs sin contenido",
+    "Entrypoint nativo en cada host",
+    "Precedencia documentada y limitaciones de BackgroundTasks"
+  ]
+}

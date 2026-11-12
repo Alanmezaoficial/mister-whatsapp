@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite*
+*.pem
+*.key
+config/session.yaml
+outputs/
+backups/
+.venv/
+__pycache__/
+node_modules/

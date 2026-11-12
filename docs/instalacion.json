@@ -1,0 +1,23 @@
+{
+  "name": "Mister WhatsApp",
+  "editions": {
+    "claude": {
+      "label": "Claude Code",
+      "zip": "mister-whatsapp-claude-1.0.0.zip",
+      "manualLabel": "Windows · PowerShell",
+      "manual": "$waRepo = Join-Path $env:USERPROFILE 'mister-whatsapp-kit'\ngit clone https://github.com/Alanmezaoficial/mister-whatsapp.git $waRepo\nif ($LASTEXITCODE -ne 0) { throw 'Revisa la descarga antes de continuar.' }\npython (Join-Path $waRepo 'scripts/install.py') --edition claude --destination \"$env:USERPROFILE/.claude/skills/mister-whatsapp\"\nif ($LASTEXITCODE -ne 0) { throw 'Revisa la instalación antes de continuar.' }",
+      "manualHint": "Necesitas Git y Python para el instalador. La guía incluye copia desde ZIP y macOS/Linux. El agente se construye después de instalar.",
+      "linkPrompt": "Instala la edición Claude Code de Mister WhatsApp desde https://github.com/Alanmezaoficial/mister-whatsapp. Lee docs/guia-claude.md. Conserva completa la carpeta claude/mister-whatsapp con SKILL.md, referencias, LICENSE y NOTICE. Usa scripts/install.py o copia a la carpeta personal de skills que corresponda a este host, sin reemplazar una instalación existente. Comprueba archivos y explica la activación en una sesión nueva. Limita este trabajo a instalar: no construyas el agente, no instales sus dependencias, no conectes cuentas, no despliegues ni envíes mensajes. Si faltan permisos o herramientas explica el paso pendiente sin afirmar que se instaló.",
+      "zipPrompt": "Instala Mister WhatsApp para Claude Code desde el ZIP que te comparto o cuya ruta te indico. Lee INSTALAR.md. Extrae de forma segura y copia la carpeta mister-whatsapp completa a la carpeta de skills del host, sin sobrescribir versiones existentes. Conserva referencias, LICENSE y NOTICE. Comprueba la estructura y explica la activación en una sesión nueva. No generes el agente ni conectes proveedores o envíes mensajes durante la instalación."
+    },
+    "codex": {
+      "label": "Codex",
+      "zip": "mister-whatsapp-codex-1.0.0.zip",
+      "manualLabel": "Windows · PowerShell",
+      "manual": "$waRepo = Join-Path $env:USERPROFILE 'mister-whatsapp-kit'\ngit clone https://github.com/Alanmezaoficial/mister-whatsapp.git $waRepo\nif ($LASTEXITCODE -ne 0) { throw 'Revisa la descarga antes de continuar.' }\npython (Join-Path $waRepo 'scripts/install.py') --edition codex --destination \"$env:USERPROFILE/.agents/skills/mister-whatsapp\"\nif ($LASTEXITCODE -ne 0) { throw 'Revisa la instalación antes de continuar.' }",
+      "manualHint": "Necesitas Git y Python para el instalador. La guía incluye copia desde ZIP y macOS/Linux. El agente se construye después de instalar.",
+      "linkPrompt": "Instala la edición Codex de Mister WhatsApp desde https://github.com/Alanmezaoficial/mister-whatsapp. Lee docs/guia-codex.md. Conserva completa la carpeta codex/mister-whatsapp con SKILL.md, referencias, LICENSE y NOTICE. Usa scripts/install.py o copia a la carpeta personal de skills que corresponda a este host, sin reemplazar una instalación existente. Comprueba archivos y explica la activación en una sesión nueva. Limita este trabajo a instalar: no construyas el agente, no instales sus dependencias, no conectes cuentas, no despliegues ni envíes mensajes. Si faltan permisos o herramientas explica el paso pendiente sin afirmar que se instaló.",
+      "zipPrompt": "Instala Mister WhatsApp para Codex desde el ZIP que te comparto o cuya ruta te indico. Lee INSTALAR.md. Extrae de forma segura y copia la carpeta mister-whatsapp completa a la carpeta de skills del host, sin sobrescribir versiones existentes. Conserva referencias, LICENSE y NOTICE. Comprueba la estructura y explica la activación en una sesión nueva. No generes el agente ni conectes proveedores o envíes mensajes durante la instalación."
+    }
+  }
+}
