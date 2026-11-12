@@ -3,6 +3,12 @@
 
 Construye un agente de atención por WhatsApp a partir de los datos de tu negocio. Esta edición está preparada para Claude Code y conserva el conocimiento técnico completo del kit. Distribución 1.0.0.
 
+<section class="provider-recommendation" aria-label="Proveedor recomendado">
+<h2>Proveedor recomendado para empezar: Zernio</h2>
+<p>Recomendamos Zernio si estás empezando: reúne la conexión con WhatsApp Business, el inbox y la configuración de webhooks. Si ya tienes una integración propia en Meta Cloud API, puedes seguir ese camino. Revisa los requisitos y las tarifas vigentes para tu cuenta antes de contratar.</p>
+<a class="library-primary" href="https://zernio.com/" target="_blank" rel="noopener noreferrer">Ir a Zernio</a>
+</section>
+
 ## Instalación para Claude Code: elige una opción
 
 ### 1. Desde GitHub con ayuda del asistente
